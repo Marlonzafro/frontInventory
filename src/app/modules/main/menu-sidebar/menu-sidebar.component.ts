@@ -47,7 +47,7 @@ export const MENU = [
     {
         name: 'Crear Productos',
         iconClasses: 'fas fa-file',
-        path: ['/crear-productos']
+        path: ['/crear-producto']
     },
 
 
