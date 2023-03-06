@@ -14,6 +14,7 @@ import {MainMenuComponent} from '@pages/main-menu/main-menu.component';
 import {SubMenuComponent} from '@pages/main-menu/sub-menu/sub-menu.component';
 import { CrearProductoComponent } from '@pages/crear-producto/crear-producto.component';
 
+
 const routes: Routes = [
     {
         path: '',
@@ -44,7 +45,8 @@ const routes: Routes = [
             {
                 path: '',
                 component: DashboardComponent
-            }
+            },
+            
         ]
     },
     {
