@@ -25,12 +25,12 @@
             <form [formGroup]="productoForm" (ngSubmit)="enviarInformacion()">
 
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="modelo" formControlName="Modelos" placeholder="Ingrese referencia">
+                    <input type="text" class="form-control" id="modelo" formControlName="modelos" placeholder="Ingrese referencia">
                     <label for="modelo">Modelos</label>
                     <span *ngIf="productoForm.get('modelos')?.hasError('required') && productoForm.get('modelos')?.touched" class="text-danger fw-bold">Indigue la marca del equipo</span>
                 </div>
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingPassword" formControlName="fabricante" placeholder="fabricante">
+                    <input type="text" class="form-control" id="fabricante" formControlName="fabricante" placeholder="fabricante">
                     <label for="fabricante">Fabricante</label>
                     <span *ngIf="productoForm.get('fabricante')?.hasError('required') && productoForm.get('fabricante')?.touched" class="text-danger fw-bold">Indigue el fabricante del equipo</span>
                 </div>
@@ -65,13 +65,13 @@
                   </div><br>
 
                 <div class="form-floating">
-                    <input type="option" class="form-control" id="floatingPassword" formControlName="estado" placeholder="Seleccione una opción...">
-                    <label for="floatingPassword">Estado</label>
+                    <input type="option" class="form-control" id="estado1" formControlName="estado" placeholder="Seleccione una opción...">
+                    <label for="estado1">Estado</label>
                 </div>
 
                 <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="STOK">
-                    <label for="floatingPassword">DEFINIR STOK</label>
+                    <input type="text" class="form-control" id="df" placeholder="STOK">
+                    <label for="df">DEFINIR STOK</label>
                 </div>
 
                 <div class="form-floating">

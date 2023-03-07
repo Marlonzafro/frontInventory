@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit, OnDestroy {
         console.log(window.location.href)
         this.renderer.addClass(
             document.querySelector('app-root'),
-            'login-page'
+            ''
         );
         this.loginForm = new UntypedFormGroup({
             email: new UntypedFormControl(null, Validators.required),
@@ -64,7 +64,7 @@ export class LoginComponent implements OnInit, OnDestroy {
     ngOnDestroy() {
         this.renderer.removeClass(
             document.querySelector('app-root'),
-            'login-page'
+            ''
         );
     }
 }

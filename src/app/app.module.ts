@@ -36,7 +36,6 @@ import {ProfabricComponentsModule} from '@profabric/angular-components';
 import {defineCustomElements} from '@profabric/web-components/loader';
 import {SidebarSearchComponent} from './components/sidebar-search/sidebar-search.component';
 import { CrearProductoComponent } from './pages/crear-producto/crear-producto.component';
-import { AdminUsersComponent } from './components/admin-users/admin-users.component';
 
 defineCustomElements();
 registerLocaleData(localeEn, 'en-EN');
@@ -65,7 +64,6 @@ registerLocaleData(localeEn, 'en-EN');
         ControlSidebarComponent,
         SidebarSearchComponent,
         CrearProductoComponent,
-        AdminUsersComponent
     ],
     imports: [
         BrowserModule,

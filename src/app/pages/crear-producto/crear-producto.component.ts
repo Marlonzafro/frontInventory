@@ -20,7 +20,7 @@ export class CrearProductoComponent {
             fabricante: ['', Validators.required],
             precio: ['', Validators.required],
             rutaImg: ['', Validators.required],
-            asgisnado_a: ['', Validators.required],
+            asignado_a: ['', Validators.required],
             estado: ['', Validators.required],
             //stok//
             numeroDocumento: ['', Validators.required],
